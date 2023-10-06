@@ -1,0 +1,31 @@
+:root {
+    --color1: hsl(225, 100%, 94%);
+    --color2: hsl(245, 75%, 52%);
+    --color3: hsl(225, 100%, 98%);
+    --color4: hsl(224, 23%, 55%);
+    --color5: hsl(223, 47%, 23%);
+
+    --ff-one: 'Red Hat Display', sans-serif;
+
+    --fw-one: 500;
+    --fw-two: 700;
+    --fw-three: 900;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
